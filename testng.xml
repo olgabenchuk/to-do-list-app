@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+    <suite name="ToDoListSuite">
+        <test name="NewTaskForm Test">
+            <classes>
+                <class name="io.dimb000Github.Tests.newTaskPageTests.NewTaskFormTest" />
+            </classes>
+        </test>
+        <test name="HomePage Test">
+            <classes>
+                <class name="io.dimb000Github.Tests.homePageTests.HomePageTest"/>
+            </classes>
+        </test>
+        <test name ="Settings Test">
+            <classes>
+                <class name="io.dimb000Github.Tests.settingsPageTest.SettingsPageTest"/>
+            </classes>
+        </test>
+    </suite>
+
