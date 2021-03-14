@@ -1,4 +1,4 @@
-#Automated end-to-end tests for a todo list app
+# Automated end-to-end tests for a todo list app
 
 Automated end-to-end tests in Java using Selenium WebDriver, TestNG and Page Object Pattern for [a todo list project](https://dimb000.github.io/). 
 
