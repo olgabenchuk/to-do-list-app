@@ -17,10 +17,11 @@ public class Header {
         this.driver = driver;
         PageFactory.initElements(this.driver, this);
     }
-    public void clickNewTaskLink() {
 
+    public void clickNewTaskLink() {
         addNewTaskLink.click();
     }
+
     public void clickSettingLink() {
         settingsLink.click();
     }

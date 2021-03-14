@@ -38,4 +38,3 @@ public class NewTaskFormTest extends TestBase {
         assertFalse(driver.getPageSource().contains("Olga Check"));
     }
 }
-

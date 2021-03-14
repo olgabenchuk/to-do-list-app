@@ -4,9 +4,7 @@ import io.dimb000Github.common.TestBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageObjects.Header;
 import pageObjects.HomePage;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import pageObjects.NewTaskPage;
 import static org.testng.Assert.*;
@@ -57,6 +55,7 @@ public class HomePageTest extends TestBase {
 
         assertFalse(driver.getPageSource().contains(title));
     }
+
     @Test
     public void makeATaskComplete() {
         navigateToTheNewTaskPage();
@@ -78,12 +77,5 @@ public class HomePageTest extends TestBase {
         wait.until(ExpectedConditions.visibilityOf(tasksPreviewCompletedButton));
 
         assertTrue(driver.getPageSource().contains("Completed"));
-
     }
-
 }
-
-
-
-
-

@@ -17,10 +17,8 @@ public class SettingPage {
     @FindBy(id = "language")
     private WebElement languageDropdownList;
 
-
     public void selectRussianLanguage() {
         Select languageList  = new Select(languageDropdownList);
         languageList.selectByVisibleText("Русский");
     }
-
 }

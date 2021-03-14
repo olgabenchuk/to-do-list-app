@@ -23,7 +23,6 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         driver.get("https://dimb000.github.io");
-
     }
 
     @AfterMethod
